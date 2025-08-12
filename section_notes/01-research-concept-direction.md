@@ -2,26 +2,73 @@
 
 # Research Concept & Direction
 
-
 ## Overview
 
-This research focuses on leveraging artificial intelligence to accelerate drug repurposing for rare diseases with limited existing treatment options. Traditional drug development for rare diseases is often slow and cost-prohibitive due to small patient populations and high R&D risk. AI models can analyze vast biomedical datasets—including chemical structures, omics data, clinical trial outcomes, and electronic health records—to identify approved drugs that may be effective for new indications. The objective is to build an AI-driven pipeline that rapidly screens, prioritizes, and validates repurposing candidates for specific rare diseases.
+This research challenges fundamental assumptions in AI-driven drug repurposing for rare diseases by proposing novel approaches that prioritize clinical actionability over predictive accuracy. While traditional drug development for rare diseases is slow and cost-prohibitive, current AI approaches make critical assumptions about data requirements, validation strategies, and the role of human expertise that may actually hinder translation to clinical practice.
 
-## Key Research Questions
+**Core Research Hypothesis**: Strategically minimal, actionability-focused AI systems that amplify human expertise can outperform comprehensive, accuracy-optimized approaches for rare disease drug repurposing.
 
-1. Can AI models accurately predict novel therapeutic uses for existing drugs in rare disease contexts?
-2. Which data modalities (e.g., molecular docking simulations, patient phenotype-genotype data, real-world treatment outcomes) provide the strongest predictive signals?
-3. How can the AI’s predictions be validated efficiently through in-vitro, in-vivo, or retrospective clinical data before moving to new trials?
+## Literature-Level Assumptions to Challenge
 
-## Methodology
+Based on systematic analysis of the AI drug repurposing literature, we identify five fundamental assumptions that span multiple research efforts:
 
-The research will be conducted in three stages:
+1. **Data Maximalism Assumption**: More comprehensive multi-modal datasets always improve repurposing predictions
+2. **Accuracy-First Assumption**: Predictive accuracy is the primary success metric for AI systems
+3. **Disease-Specific Modeling Assumption**: Each rare disease requires custom computational approaches
+4. **Sequential Validation Assumption**: Drug validation must follow linear preclinical → clinical stages
+5. **AI Supremacy Assumption**: AI should minimize human bias and replace expert judgment
 
-1. **Data Integration & Model Training:** Aggregate and harmonize datasets from public sources (DrugBank, PubChem, ClinVar, OMIM), as well as de-identified clinical records. Train multimodal AI models (e.g., graph neural networks, transformer-based biomedical LMs) to predict drug–disease efficacy links.
-2. **Candidate Prioritization:** Rank repurposing opportunities using multi-criteria scoring, incorporating predicted efficacy, safety profiles, and existing pharmacokinetic/pharmacodynamic data.
-3. **Preclinical Validation:** Test top candidates using in-vitro assays and disease-relevant cell or organoid models. For promising hits, conduct retrospective analysis of patient records to assess potential real-world efficacy.
+## Research Hypotheses
 
-The study aims to deliver a scalable AI workflow that shortens the path from hypothesis to clinical testing for rare disease treatments.
+### Hypothesis 1: Data Minimalism for Maximum Impact
+- **Assumption Flip**: Prior work assumes more comprehensive datasets always improve drug repurposing predictions → We propose strategically minimal, high-signal datasets can outperform large, noisy multi-modal approaches
+- **Research Question**: Can minimal but highly curated datasets achieve superior actionable predictions compared to comprehensive multi-modal approaches?
+- **Impact**: Could unlock repurposing for ultra-rare conditions with extremely limited data
+
+### Hypothesis 2: Actionability-First AI Design  
+- **Assumption Flip**: Prior work assumes predictive accuracy is the primary success metric → We propose models optimized for clinical actionability (interpretability, uncertainty quantification, decision support)
+- **Research Question**: Do AI systems designed for clinical actionability produce better real-world outcomes than accuracy-optimized models?
+- **Impact**: Could bridge the gap between AI predictions and clinical implementation
+
+### Hypothesis 3: Cross-Disease Pattern Learning
+- **Assumption Flip**: Prior work assumes each rare disease requires disease-specific models → We propose shared mechanistic patterns across rare diseases can be leveraged through transfer learning
+- **Research Question**: Can meta-learning approaches identify universal repurposing patterns that generalize across rare diseases?
+- **Impact**: Could enable repurposing for diseases with insufficient individual datasets
+
+### Hypothesis 4: Parallel Validation Strategies
+- **Assumption Flip**: Prior work assumes drug validation must follow sequential preclinical → clinical stages → We propose parallel, multi-stage validation using real-world evidence
+- **Research Question**: Can parallel validation approaches accelerate repurposing timelines without compromising safety?
+- **Impact**: Could dramatically reduce time-to-treatment for rare disease patients
+
+### Hypothesis 5: Human-AI Collaborative Intelligence
+- **Assumption Flip**: Prior work assumes AI should minimize human bias and replace expert judgment → We propose hybrid human-AI systems that amplify clinical expertise
+- **Research Question**: Do collaborative human-AI systems outperform fully automated approaches for complex repurposing decisions?
+- **Impact**: Could leverage irreplaceable rare disease expertise while scaling discovery
+
+## Enhanced Methodology
+
+### Stage 1: Assumption Testing Framework
+- Develop controlled experiments to test each literature assumption
+- Compare minimal vs. maximal data approaches on rare disease benchmarks
+- Evaluate actionability metrics alongside traditional accuracy measures
+
+### Stage 2: Hypothesis-Driven System Design
+- Build AI systems designed around flipped assumptions
+- Implement cross-disease transfer learning architectures
+- Design parallel validation protocols using real-world evidence
+
+### Stage 3: Clinical Translation Validation
+- Partner with rare disease clinicians for human-AI collaboration studies
+- Measure clinical utility and implementation success
+- Validate improved time-to-treatment metrics
+
+## Expected Impact
+
+This research could fundamentally reshape AI drug repurposing by:
+1. Establishing new evaluation frameworks focused on clinical actionability
+2. Demonstrating that data minimalism can outperform data maximalism in rare diseases
+3. Proving that human-AI collaboration exceeds fully automated approaches
+4. Accelerating rare disease treatment development through parallel validation strategies
 
 
 
