@@ -1,3 +1,5 @@
+
+
 # Research Concept & Direction
 
 
@@ -20,5 +22,7 @@ The research will be conducted in three stages:
 3. **Preclinical Validation:** Test top candidates using in-vitro assays and disease-relevant cell or organoid models. For promising hits, conduct retrospective analysis of patient records to assess potential real-world efficacy.
 
 The study aims to deliver a scalable AI workflow that shortens the path from hypothesis to clinical testing for rare disease treatments.
+
+
 
 
