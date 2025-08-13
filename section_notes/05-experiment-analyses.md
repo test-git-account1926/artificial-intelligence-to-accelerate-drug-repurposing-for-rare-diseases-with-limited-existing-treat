@@ -24,4 +24,4 @@
 
 ## Next Steps
 
-*Based on your analyses, what are the next steps?*
+*Based on your analyses, what are the next steps?
