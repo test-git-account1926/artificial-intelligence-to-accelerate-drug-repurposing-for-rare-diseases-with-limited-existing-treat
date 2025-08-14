@@ -344,6 +344,268 @@ This experimental plan is specifically designed for autonomous execution by AI a
 
 This framework enables AI agents to conduct rigorous scientific research that challenges fundamental assumptions and advances the field of AI-driven drug repurposing for rare diseases.
 
+## Enhanced Experiment Portfolio
+
+### Experiment 6: Computational Complexity vs. Clinical Implementation Success
+- **Core Research Question**: Does computational sophistication correlate with clinical adoption and real-world effectiveness?
+- **Literature Assumption**: Complexity Superiority Assumption - more sophisticated models (graph neural networks, deep learning) achieve better clinical outcomes than simple approaches
+- **Assumption Flip**: Simple, interpretable models with clinical workflow optimization outperform complex architectures in real-world deployment
+- **Hypothesis Claim Type**: X > Y (simple optimized models achieve better clinical outcomes) + Bounding X (complexity helpful only for specific subproblems)
+
+**Vectoring Analysis**:
+- **Highest Risk**: If biological complexity genuinely requires computational complexity, simple models may miss critical patterns
+- **Invalidation Test**: Compare performance on problems with known complexity requirements - if simple models fail on complex biology, assumption holds
+- **Impact Validation**: Success could democratize AI drug repurposing and accelerate clinical adoption globally
+
+**AI Agent Execution Protocol**:
+1. **Architecture Comparison Pipeline**:
+   - Implement simple baseline (logistic regression, random forest) with extensive feature engineering
+   - Build complex baseline (graph neural networks, transformer architectures) with minimal feature engineering
+   - Create workflow-optimized simple model with clinical integration features
+2. **Real-World Simulation Environment**:
+   - Simulate clinical deployment scenarios with realistic constraints (computational resources, interpretation time, training requirements)
+   - Model physician adoption patterns based on model complexity and interpretability
+   - Track implementation success rates across different healthcare settings
+3. **Performance-Complexity Trade-off Analysis**:
+   - Measure prediction accuracy vs. clinical adoption rates
+   - Calculate total clinical impact (accuracy × adoption rate × implementation speed)
+   - Assess maintenance and update complexity for deployed models
+
+**Concrete Implementation Steps**:
+- **Week 1-4**: Build simple and complex model architectures with standardized training protocols
+- **Week 5-8**: Develop clinical workflow integration for simple models
+- **Week 9-12**: Implement deployment simulation environment with realistic constraints
+- **Week 13-16**: Execute comparative evaluation across multiple deployment scenarios
+- **Week 17-18**: Analyze complexity-adoption trade-offs and clinical impact metrics
+
+**Success/Failure Criteria**:
+- **Strong Success**: Simple models achieve >30% higher total clinical impact (accuracy × adoption)
+- **Moderate Success**: Simple models match accuracy with >50% better adoption rates
+- **Failure**: Complex models significantly outperform in both accuracy and adoption
+- **Assumption Invalidated**: If complex models win decisively, investigate hybrid approaches balancing complexity and interpretability
+
+**Automated Vectoring Checks**:
+- Monitor accuracy degradation - if simple models lose >15% accuracy, investigate feature engineering improvements
+- Track adoption simulation realism - validate against published clinical AI adoption studies
+- Measure implementation complexity - if simple models require >80% of complex model infrastructure, reconsider approach
+
+### Experiment 7: Mechanistic Understanding vs. Pattern Matching for Clinical Success
+- **Core Research Question**: Do AI systems need to understand disease mechanisms or is statistical pattern matching sufficient for clinical success?
+- **Literature Assumption**: Pattern Matching Sufficiency Assumption - statistical associations in data are sufficient for effective drug repurposing without mechanistic understanding
+- **Assumption Flip**: Mechanistically-informed AI that incorporates biological pathway knowledge achieves superior clinical success rates
+- **Hypothesis Claim Type**: X > Y (mechanistic models outperform pattern-matching models) + Bounding X (mechanistic advantage increases with disease complexity)
+
+**Vectoring Analysis**:
+- **Highest Risk**: If patterns in data capture mechanisms implicitly, explicit mechanistic modeling may be redundant overhead
+- **Invalidation Test**: Compare performance on diseases with well-understood vs. poorly understood mechanisms
+- **Impact Validation**: Success establishes scientific rationale requirement for clinical AI, affecting entire medical AI field
+
+**AI Agent Execution Protocol**:
+1. **Mechanistic Knowledge Integration**:
+   - Build pattern-matching baseline using standard ML on molecular/clinical features
+   - Develop mechanistic model incorporating pathway databases (KEGG, Reactome), protein interaction networks
+   - Create hybrid model that combines patterns with mechanism constraints
+2. **Disease Mechanism Stratification**:
+   - Categorize rare diseases by mechanism understanding level (well-understood, partially-understood, unknown)
+   - Test all models across mechanism categories to validate differential performance
+   - Implement automated mechanism pathway verification for predictions
+3. **Clinical Translation Validation**:
+   - Simulate clinical decision-making with mechanistic rationale vs. statistical association
+   - Model physician confidence and adoption based on explanation type
+   - Track failure modes and error correction capabilities
+
+**Concrete Implementation Steps**:
+- **Week 1-6**: Build pattern-matching baseline and mechanistic knowledge integration pipeline
+- **Week 7-12**: Develop hybrid model and disease mechanism stratification framework
+- **Week 13-18**: Execute comparative evaluation across mechanism understanding categories
+- **Week 19-20**: Analyze mechanistic advantage patterns and clinical translation benefits
+
+**Success/Failure Criteria**:
+- **Strong Success**: Mechanistic models achieve >25% better performance on well-understood diseases with superior physician adoption
+- **Moderate Success**: Mechanistic models show >15% improvement with better explanation quality
+- **Failure**: No significant difference or pattern-matching consistently wins
+- **Assumption Invalidated**: If pattern matching wins, investigate whether current mechanistic knowledge is insufficient or incorrect
+
+**Automated Vectoring Checks**:
+- Monitor mechanism quality - if mechanistic knowledge is frequently wrong, pattern matching may be more reliable
+- Track explanation utility - if mechanistic explanations don't improve physician decisions, assumption may be wrong
+- Evaluate knowledge base completeness - if mechanisms are unknown for >70% of test diseases, approach may not be generally applicable
+
+### Experiment 8: Prospective Clinical Validation vs. Retrospective Benchmark Performance
+- **Core Research Question**: Do models optimized for retrospective benchmarks translate to prospective clinical success?
+- **Literature Assumption**: Benchmark Predictivity Assumption - performance on retrospective datasets predicts clinical success
+- **Assumption Flip**: Models optimized for prospective clinical metrics outperform benchmark-optimized models in real clinical settings
+- **Hypothesis Claim Type**: X > Y (prospectively-optimized models achieve better clinical outcomes) + Bounding X (prospective optimization particularly critical for rare diseases)
+
+**Vectoring Analysis**:
+- **Highest Risk**: If retrospective performance actually does predict clinical success, prospective optimization may be unnecessary complexity
+- **Invalidation Test**: Compare retrospective benchmark champions with prospective clinical outcomes - strong correlation invalidates assumption
+- **Impact Validation**: Success would fundamentally reshape evaluation standards for all medical AI research
+
+**AI Agent Execution Protocol**:
+1. **Dual Optimization Framework**:
+   - Train retrospective baseline optimized for standard benchmarks (AUC, precision, recall on historical datasets)
+   - Develop prospective model optimized for clinical outcome prediction using simulation
+   - Create meta-learning model that balances retrospective and prospective objectives
+2. **Clinical Outcome Simulation**:
+   - Build realistic clinical decision simulation incorporating physician behavior, patient compliance, healthcare system constraints
+   - Model time-dependent outcomes (treatment adherence, side effect detection, efficacy monitoring)
+   - Implement patient heterogeneity and real-world complexity factors
+3. **Translation Gap Analysis**:
+   - Identify specific aspects where retrospective and prospective optimization diverge
+   - Measure correlation between benchmark performance and simulated clinical success
+   - Track which optimization target better predicts actual clinical adoption and outcomes
+
+**Concrete Implementation Steps**:
+- **Week 1-8**: Build retrospective and prospective optimization frameworks with realistic clinical simulation
+- **Week 9-16**: Execute parallel optimization on 100 rare disease drug repurposing cases
+- **Week 17-20**: Analyze translation gaps and correlation patterns between benchmark and clinical performance
+- **Week 21-24**: Validate findings on held-out prospective scenarios and clinical adoption simulation
+
+**Success/Failure Criteria**:
+- **Strong Success**: Prospective models achieve >35% better simulated clinical outcomes with minimal retrospective performance loss
+- **Moderate Success**: Prospective models show >20% clinical improvement with acceptable benchmark trade-offs
+- **Failure**: No difference in clinical outcomes or retrospective performance strongly predictive
+- **Assumption Invalidated**: If retrospective benchmarks perfectly predict clinical success, investigate whether current benchmarks are already clinically relevant
+
+**Automated Vectoring Checks**:
+- Monitor retrospective-prospective correlation - if r>0.85, retrospective benchmarks may already capture clinical needs
+- Track simulation realism - validate against published clinical AI implementation studies
+- Evaluate optimization trade-offs - if prospective optimization severely degrades retrospective performance, investigate multi-objective approaches
+
+### Experiment 9: Resource-Constrained vs. Resource-Abundant AI Design
+- **Core Research Question**: Should AI systems be optimized for resource-constrained deployment to maximize global accessibility?
+- **Literature Assumption**: Resource Abundance Assumption - optimal AI systems should use maximum available computational resources for best performance
+- **Assumption Flip**: AI systems optimized for resource constraints achieve better global impact through increased accessibility and deployment
+- **Hypothesis Claim Type**: X > Y (resource-constrained optimization achieves better global health impact) + Bounding X (constraint optimization particularly important for rare diseases)
+
+**Vectoring Analysis**:
+- **Highest Risk**: If computational resources are truly necessary for biological complexity, constraint optimization may severely limit effectiveness
+- **Invalidation Test**: Test on problems with known computational requirements - if constrained models fail on complex biology, assumption holds
+- **Impact Validation**: Success could democratize AI drug repurposing globally, especially in resource-limited healthcare systems
+
+**AI Agent Execution Protocol**:
+1. **Multi-Resource Architecture Development**:
+   - Build high-resource baseline using maximum computational capacity (large models, extensive hyperparameter search, ensemble methods)
+   - Develop resource-constrained model optimized for edge deployment (mobile devices, limited cloud computing, low-bandwidth scenarios)
+   - Create adaptive architecture that scales with available resources
+2. **Global Deployment Simulation**:
+   - Model deployment scenarios across different resource contexts (developed vs. developing countries, academic vs. clinical settings)
+   - Simulate accessibility, update frequency, and maintenance requirements
+   - Calculate total global impact considering both performance and accessibility
+3. **Resource-Performance Trade-off Analysis**:
+   - Measure accuracy vs. accessibility trade-offs
+   - Calculate population-level health impact (performance × deployment reach)
+   - Assess sustainability and scalability of different resource approaches
+
+**Concrete Implementation Steps**:
+- **Week 1-6**: Develop high-resource and resource-constrained model architectures
+- **Week 7-12**: Build global deployment simulation with realistic resource constraints
+- **Week 13-18**: Execute comparative evaluation across resource scenarios
+- **Week 19-20**: Analyze global impact metrics and sustainability assessment
+
+**Success/Failure Criteria**:
+- **Strong Success**: Resource-constrained models achieve >50% higher global impact through increased accessibility
+- **Moderate Success**: Constrained models match total impact with better accessibility profiles
+- **Failure**: High-resource models decisively outperform in both performance and total impact
+- **Assumption Invalidated**: If high-resource approaches achieve better global impact, investigate hybrid deployment strategies
+
+**Automated Vectoring Checks**:
+- Monitor performance degradation - if resource constraints reduce accuracy by >25%, investigate efficiency improvements
+- Track deployment realism - validate accessibility assumptions against published healthcare infrastructure data
+- Evaluate update/maintenance complexity - if constrained models are harder to maintain, assumption may not hold
+
+### Experiment 10: Uncertainty-Aware vs. Confidence-Maximizing AI Systems
+- **Core Research Question**: Should AI systems maximize prediction confidence or honestly quantify and communicate uncertainty?
+- **Literature Assumption**: Confidence Maximization Assumption - AI systems should maximize prediction confidence to ensure clinical adoption and decision-making
+- **Assumption Flip**: Uncertainty-aware systems that honestly communicate prediction limitations achieve better clinical outcomes through appropriate use
+- **Hypothesis Claim Type**: X > Y (uncertainty-aware systems achieve better clinical outcomes) + Bounding X (uncertainty awareness particularly critical for rare diseases with limited data)
+
+**Vectoring Analysis**:
+- **Highest Risk**: If physicians prefer confident predictions and uncertainty causes decision paralysis, uncertainty-aware systems may be clinically counterproductive
+- **Invalidation Test**: Compare physician decision-making with confident vs. uncertain AI predictions - if uncertainty reduces clinical utility, assumption holds
+- **Impact Validation**: Success establishes honest uncertainty communication as essential for responsible medical AI
+
+**AI Agent Execution Protocol**:
+1. **Uncertainty Quantification Implementation**:
+   - Build confidence-maximizing baseline that optimizes for high-confidence predictions
+   - Develop uncertainty-aware model with calibrated confidence intervals, prediction reliability scores
+   - Create adaptive system that adjusts uncertainty communication based on decision context
+2. **Clinical Decision Simulation**:
+   - Simulate physician decision-making with different uncertainty presentation formats
+   - Model patient safety outcomes under confident vs. uncertain prediction scenarios
+   - Track appropriate vs. inappropriate AI system usage patterns
+3. **Uncertainty Communication Optimization**:
+   - Test different uncertainty visualization and communication methods
+   - Measure decision quality, physician trust, and patient outcomes
+   - Identify optimal uncertainty thresholds for different clinical decisions
+
+**Concrete Implementation Steps**:
+- **Week 1-6**: Build confidence-maximizing and uncertainty-aware model architectures
+- **Week 7-12**: Implement clinical decision simulation with uncertainty communication
+- **Week 13-18**: Execute comparative evaluation across clinical decision scenarios
+- **Week 19-20**: Analyze uncertainty communication effectiveness and clinical outcomes
+
+**Success/Failure Criteria**:
+- **Strong Success**: Uncertainty-aware systems achieve >30% better clinical outcomes through appropriate usage
+- **Moderate Success**: Uncertainty systems show >15% improvement in decision quality with maintained physician adoption
+- **Failure**: Confidence-maximizing systems achieve better outcomes or adoption
+- **Assumption Invalidated**: If uncertainty reduces clinical utility, investigate whether confidence calibration without uncertainty communication is optimal
+
+**Automated Vectoring Checks**:
+- Monitor decision paralysis rate - if uncertainty causes >20% decision delays without benefit, approach may be counterproductive
+- Track calibration quality - poorly calibrated uncertainty estimates invalidate entire approach
+- Evaluate physician trust patterns - if uncertainty reduces overall AI adoption below utility threshold, reconsider communication strategies
+
+## Enhanced Meta-Analysis Framework
+
+### Cross-Experiment Assumption Network
+The enhanced experiment portfolio tests **10 interconnected assumption clusters**:
+
+1. **Data-Model Complexity Cluster**: Experiments 1, 6, 9 (minimalism vs. maximalism across data, architecture, and resources)
+2. **Evaluation-Translation Cluster**: Experiments 2, 8 (actionability vs. accuracy, prospective vs. retrospective)
+3. **Human-AI Integration Cluster**: Experiments 5, 10 (collaboration vs. automation, uncertainty vs. confidence)
+4. **Knowledge-Pattern Cluster**: Experiments 3, 7 (transfer learning vs. specific models, mechanism vs. patterns)
+5. **Validation-Deployment Cluster**: Experiments 4, 9 (parallel vs. sequential validation, constrained vs. abundant resources)
+
+### Integrated Hypothesis Testing Strategy
+- **Phase 1**: Execute foundational experiments (1, 2, 3) to validate core data and modeling assumptions
+- **Phase 2**: Run advanced experiments (6, 7, 8) to test clinical translation and mechanistic understanding
+- **Phase 3**: Deploy integration experiments (4, 5, 9, 10) to validate deployment and collaboration assumptions
+- **Phase 4**: Meta-analysis across all experiments to identify synergistic assumption flips and optimal combinations
+
+### Enhanced AI Agent Execution Protocol
+
+**Automated Experiment Orchestration**:
+- **Priority Queue**: Continuously re-rank experiments by assumption invalidation risk and field impact potential
+- **Resource Allocation**: Dynamically assign computational resources based on experiment complexity and learning rate
+- **Early Stopping**: Implement Bayesian sequential testing with automated experiment termination when evidence threshold reached
+- **Adaptive Follow-up**: Automatically generate targeted follow-up experiments based on unexpected results
+
+**Real-Time Vectoring Dashboard**:
+- **Assumption Risk Tracking**: Monitor which core assumptions show highest vulnerability across experiments
+- **Learning Rate Optimization**: Track information gain per computational resource across different experimental approaches
+- **Synergy Detection**: Identify assumption flips that show synergistic effects when combined
+- **Field Impact Modeling**: Estimate potential field-wide impact if each assumption flip is validated
+
+### Publication and Field Impact Strategy
+
+**Multi-Paper Portfolio**:
+- **Paper 1**: "Data Minimalism in AI Drug Repurposing" (Experiments 1, 6 results)
+- **Paper 2**: "Beyond Accuracy: Clinical Actionability in Medical AI" (Experiments 2, 8, 10 results)
+- **Paper 3**: "Mechanistic AI vs. Pattern Matching for Drug Discovery" (Experiments 3, 7 results)
+- **Paper 4**: "Human-AI Collaboration Paradigms for Rare Disease Treatment" (Experiments 4, 5, 9 results)
+- **Paper 5**: "Meta-Analysis: Assumption Networks in AI Drug Repurposing" (Cross-experiment synthesis)
+
+**Expected Field-Level Impact**:
+- **Computational Methods**: New evaluation standards prioritizing clinical actionability over technical metrics
+- **Clinical Translation**: Evidence-based frameworks for medical AI deployment and human-AI collaboration
+- **Global Health**: Resource-optimized AI systems enabling rare disease treatment discovery in resource-limited settings
+- **Regulatory Science**: Validation frameworks supporting regulatory approval of AI-driven drug repurposing
+- **Research Methodology**: CS-inspired assumption + hypothesis paradigm adopted in medical AI research
+
+This enhanced experimental framework systematically challenges **15 literature-level assumptions** through **10 rigorous experiments**, with full AI agent automation enabling rapid, large-scale assumption testing that could fundamentally reshape the field of AI-driven drug repurposing for rare diseases.
+
 
 
 
