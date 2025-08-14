@@ -344,6 +344,247 @@ This experimental plan is specifically designed for autonomous execution by AI a
 
 This framework enables AI agents to conduct rigorous scientific research that challenges fundamental assumptions and advances the field of AI-driven drug repurposing for rare diseases.
 
+## Enhanced Experimental Framework: Additional Research Dimensions
+
+Based on the Computer Science-inspired assumption + hypothesis paradigm, we identify five additional critical experimental dimensions that address gaps in the current framework. These experiments test assumptions that emerged from our comprehensive literature analysis and vectoring methodology.
+
+### Experiment 6: Architecture Simplicity vs. Graph Complexity
+- **Core Research Question**: Are graph neural networks inherently superior for drug repurposing, or can simple models achieve comparable performance?
+- **Literature Assumption**: Graph Architecture Superiority Assumption - complex graph neural networks are necessary for capturing biological relationships in drug repurposing
+- **Assumption Flip**: Simple feature-based models with domain engineering can match or exceed graph-based approaches while providing better interpretability and efficiency
+- **Hypothesis Claim Type**: X ≥ Y (simple models match graph performance) + Bounding X (simple models particularly effective with proper feature engineering)
+
+**Vectoring Analysis**:
+- **Highest Risk**: If biological relationships truly require graph-level reasoning, simple models will fundamentally underperform
+- **Invalidation Test**: Direct comparison on identical datasets - if graphs consistently outperform by >15%, assumption holds
+- **Impact Validation**: Success would democratize AI drug repurposing and improve clinical adoption through interpretable predictions
+
+**AI Agent Execution Protocol**:
+1. **Model Architecture Comparison**:
+   - Implement state-of-the-art graph neural networks (GCN, GraphSAGE, GAT) for drug-disease prediction
+   - Build feature-engineered simple models (XGBoost, Random Forest) using domain-informed features
+   - Create hybrid models combining graph embeddings with simple architectures
+2. **Feature Engineering Automation**:
+   - Automatically extract biological pathway features, molecular descriptors, and clinical phenotypes
+   - Implement automated feature selection using mutual information and clinical relevance scores
+   - Generate interpretable features that capture graph-like relationships in tabular format
+3. **Performance-Interpretability Trade-off Analysis**:
+   - Measure prediction accuracy, training time, inference speed, and memory requirements
+   - Quantify interpretability using SHAP values, feature importance, and clinical reasoning clarity
+   - Assess deployment feasibility in clinical environments with limited computational resources
+
+**Concrete Implementation Steps**:
+- **Week 1-3**: Implement graph neural network baselines with automated hyperparameter optimization
+- **Week 4-6**: Build feature-engineered simple models with domain-informed feature extraction
+- **Week 7-9**: Execute systematic comparison across 30 rare disease drug repurposing tasks
+- **Week 10-11**: Performance-interpretability trade-off analysis with clinical deployment assessment
+- **Week 12**: Statistical validation and architecture recommendation framework
+
+**Success/Failure Criteria**:
+- **Strong Success**: Simple models achieve ≥95% of graph performance with >3x interpretability improvement
+- **Moderate Success**: Simple models achieve ≥90% of graph performance with significant efficiency gains
+- **Failure**: Graph models consistently outperform simple models by >15% across tasks
+- **Assumption Invalidated**: If failure, investigate hybrid architectures that maintain interpretability
+
+### Experiment 7: Benchmark vs. Clinical Evaluation Metrics  
+- **Core Research Question**: Do traditional AI benchmarks predict clinical translation success?
+- **Literature Assumption**: Benchmark-Clinical Correlation Assumption - models optimized for retrospective benchmarks translate to clinical success
+- **Assumption Flip**: Prospective clinical validation metrics better predict real-world implementation success than traditional benchmarks
+- **Hypothesis Claim Type**: X > Y (clinical metrics outperform benchmarks as predictors) + ∃ X (it's possible to construct clinical metrics that predict implementation success)
+
+**Vectoring Analysis**:
+- **Highest Risk**: If benchmark metrics actually correlate with clinical success, our clinical-first approach may be unnecessary overhead
+- **Invalidation Test**: Retrospective analysis of medical AI implementations - if benchmark performance predicts adoption rates, assumption holds
+- **Impact Validation**: Success would reshape evaluation standards across all medical AI development
+
+**AI Agent Execution Protocol**:
+1. **Clinical Translation Database Development**:
+   - Automatically compile medical AI implementation case studies with adoption rates and outcome data
+   - Build database linking benchmark performance to real-world clinical deployment success
+   - Implement automated extraction of implementation barriers and success factors
+2. **Alternative Metric Development**:
+   - Design clinical actionability scores incorporating interpretability, uncertainty, and workflow integration
+   - Implement time-to-deployment metrics and clinical workflow disruption assessments
+   - Create patient outcome prediction metrics based on actual clinical decision-making patterns
+3. **Predictive Validation**:
+   - Train models to predict clinical implementation success using both benchmark and clinical metrics
+   - Execute automated cross-validation using historical medical AI deployment data
+   - Compare predictive power of benchmark vs. clinical evaluation approaches
+
+**Concrete Implementation Steps**:
+- **Week 1-4**: Build automated clinical translation database with implementation outcome data
+- **Week 5-8**: Develop and validate clinical evaluation metrics with domain expert simulation
+- **Week 9-12**: Train predictive models for implementation success using both metric types
+- **Week 13-14**: Statistical comparison of predictive power across evaluation approaches
+- **Week 15-16**: Development of unified evaluation framework incorporating validated metrics
+
+**Success/Failure Criteria**:
+- **Strong Success**: Clinical metrics achieve >30% better prediction of implementation success (AUC >0.85)
+- **Moderate Success**: Clinical metrics achieve >20% better prediction with significant correlation improvement
+- **Failure**: Benchmark metrics equal or exceed clinical metrics for predicting implementation success
+- **Assumption Invalidated**: If failure, investigate whether combined benchmark-clinical metrics optimize prediction
+
+### Experiment 8: Regulatory-Informed vs. Regulatory-Agnostic AI Design
+- **Core Research Question**: Should AI systems be designed with regulatory pathways integrated from the start?
+- **Literature Assumption**: Implementation-Prediction Separation Assumption - AI development can operate independently of regulatory considerations until deployment
+- **Assumption Flip**: AI systems designed with embedded regulatory pathway modeling achieve superior clinical translation rates
+- **Hypothesis Claim Type**: X > Y (regulatory-informed design outperforms regulatory-agnostic) + Bounding X (regulatory integration particularly effective for novel therapeutics)
+
+**Vectoring Analysis**:
+- **Highest Risk**: If regulatory considerations don't affect AI performance, regulatory integration may add unnecessary complexity
+- **Invalidation Test**: Compare translation rates - if regulatory-agnostic systems translate as well, assumption holds
+- **Impact Validation**: Success could revolutionize medical AI development by embedding regulatory science into algorithms
+
+**AI Agent Execution Protocol**:
+1. **Regulatory Pathway Modeling**:
+   - Automatically extract FDA guidance documents and regulatory pathways for rare disease treatments
+   - Implement regulatory requirement prediction models using historical approval data
+   - Build automated compliance checking for Orphan Drug Designation criteria and safety requirements
+2. **Regulatory-Informed System Development**:
+   - Create drug repurposing models that incorporate regulatory approval probability as optimization target
+   - Implement risk-benefit analysis frameworks aligned with FDA risk-benefit assessment methodologies
+   - Design evidence gathering strategies that match regulatory evidence requirements
+3. **Translation Success Prediction**:
+   - Compare regulatory-informed vs. regulatory-agnostic systems on historical drug development cases
+   - Measure time-to-regulatory-submission and approval rates for different AI-guided approaches
+   - Assess regulatory feedback and revision requirements for different development strategies
+
+**Concrete Implementation Steps**:
+- **Week 1-6**: Build automated regulatory pathway database with approval prediction models
+- **Week 7-12**: Develop regulatory-informed drug repurposing systems with compliance integration
+- **Week 13-18**: Execute comparative evaluation on 100+ historical drug development cases
+- **Week 19-20**: Statistical analysis of translation rates and regulatory success factors
+- **Week 21-22**: Development of regulatory-informed AI design principles and frameworks
+
+**Success/Failure Criteria**:
+- **Strong Success**: Regulatory-informed systems achieve >40% better translation rates with faster regulatory progression  
+- **Moderate Success**: Regulatory-informed systems achieve >25% better translation with measurable regulatory advantages
+- **Failure**: No difference in translation rates or regulatory outcomes between approaches
+- **Assumption Invalidated**: If failure, investigate whether regulatory integration helps specific drug classes or disease types
+
+### Experiment 9: Mechanistic vs. Pattern-Matching Approaches
+- **Core Research Question**: Is understanding disease mechanisms necessary for successful drug repurposing?
+- **Literature Assumption**: Mechanistic Agnosticism Assumption - pattern matching without mechanistic understanding is sufficient for clinical success
+- **Assumption Flip**: Mechanistically-informed AI systems achieve better clinical outcomes than purely data-driven approaches
+- **Hypothesis Claim Type**: X > Y (mechanistic models outperform pattern-matching) + Bounding X (mechanistic understanding particularly valuable for novel mechanisms)
+
+**Vectoring Analysis**:
+- **Highest Risk**: If pattern matching captures all relevant relationships, mechanistic models may add unnecessary complexity without benefit
+- **Invalidation Test**: Compare performance on novel vs. known mechanisms - if pattern matching performs equally well, assumption holds  
+- **Impact Validation**: Success ensures therapeutic rationale beyond statistical association, improving scientific rigor
+
+**AI Agent Execution Protocol**:
+1. **Mechanistic Model Development**:
+   - Automatically extract disease pathway information from databases (KEGG, Reactome, WikiPathways)
+   - Implement causal reasoning models that incorporate biological mechanism constraints
+   - Build drug mechanism of action prediction models using structural and functional data
+2. **Pattern-Matching Baseline Development**:
+   - Create purely data-driven models using statistical associations without mechanistic constraints
+   - Implement deep learning approaches that identify patterns without biological interpretation
+   - Build ensemble methods that optimize for prediction accuracy without mechanistic reasoning
+3. **Mechanistic Validation Framework**:
+   - Develop automated biological plausibility scoring for drug repurposing predictions
+   - Implement experimental validation prediction using mechanistic reasoning vs. statistical association
+   - Create interpretability assessment comparing biological insight vs. statistical correlation
+
+**Concrete Implementation Steps**:
+- **Week 1-4**: Build mechanistic model architectures with biological pathway integration  
+- **Week 5-8**: Develop pattern-matching baselines optimized for predictive accuracy
+- **Week 9-12**: Execute comparative evaluation on drug repurposing tasks with known mechanisms
+- **Week 13-16**: Test generalization to novel mechanisms and unexplored therapeutic areas
+- **Week 17-18**: Biological plausibility analysis and experimental validation prediction
+- **Week 19-20**: Statistical validation and mechanistic insight assessment
+
+**Success/Failure Criteria**:
+- **Strong Success**: Mechanistic models achieve >25% better performance on novel mechanisms with superior biological insight
+- **Moderate Success**: Mechanistic models achieve >15% better performance with significantly better interpretability
+- **Failure**: Pattern-matching models equal or exceed mechanistic models across all evaluation criteria
+- **Assumption Invalidated**: If failure, investigate whether hybrid approaches combining patterns and mechanisms optimize performance
+
+### Experiment 10: Urgency-Stratified vs. Uniform Development
+- **Core Research Question**: Should AI development strategies account for disease urgency and patient population characteristics?
+- **Literature Assumption**: Time Horizon Uniformity Assumption - all rare diseases can use uniform development timelines and approaches
+- **Assumption Flip**: Disease urgency stratification (life-threatening vs. chronic, pediatric vs. adult) optimizes resource allocation and patient outcomes
+- **Hypothesis Claim Type**: X > Y (urgency-stratified approach outperforms uniform approach) + Bounding X (stratification particularly effective for resource allocation)
+
+**Vectoring Analysis**:
+- **Highest Risk**: If uniform approaches work equally well across disease types, stratification may add unnecessary complexity
+- **Invalidation Test**: Compare outcomes across urgency categories - if no systematic differences exist, assumption holds
+- **Impact Validation**: Success could save more lives through appropriate prioritization and tailored development strategies
+
+**AI Agent Execution Protocol**:
+1. **Disease Urgency Categorization**:
+   - Automatically classify rare diseases by mortality rate, disease progression speed, and quality of life impact
+   - Implement pediatric vs. adult stratification using age-specific outcome data
+   - Build urgency scoring algorithms incorporating patient advocate priorities and clinical expert assessment
+2. **Stratified Development Framework**:
+   - Design accelerated development pathways for life-threatening pediatric conditions
+   - Implement standard timelines for chronic adult conditions with existing treatments
+   - Create resource allocation algorithms that optimize patient outcomes across urgency categories
+3. **Comparative Outcome Assessment**:
+   - Compare patient outcomes under uniform vs. urgency-stratified development approaches
+   - Measure time-to-treatment, resource utilization efficiency, and overall patient benefit
+   - Assess ethical considerations and health equity implications of stratified approaches
+
+**Concrete Implementation Steps**:
+- **Week 1-4**: Build disease urgency classification system with automated scoring algorithms
+- **Week 5-8**: Design stratified development frameworks tailored to different urgency categories
+- **Week 9-12**: Simulate development outcomes under uniform vs. stratified approaches
+- **Week 13-16**: Execute resource allocation optimization across disease portfolios
+- **Week 17-18**: Ethical assessment and health equity impact analysis
+- **Week 19-20**: Statistical validation and policy recommendation development
+
+**Success/Failure Criteria**:
+- **Strong Success**: Urgency-stratified approach achieves >30% better patient outcomes with improved resource efficiency
+- **Moderate Success**: Urgency-stratified approach achieves >20% better outcomes with acceptable resource trade-offs
+- **Failure**: No significant difference in outcomes between uniform and stratified approaches
+- **Assumption Invalidated**: If failure, investigate whether different stratification criteria (mechanism, prevalence) optimize outcomes
+
+## Integrated Meta-Experimental Framework
+
+### Cross-Assumption Interaction Analysis
+Building on the Computer Science-inspired methodology, we implement systematic testing of assumption interactions:
+
+#### Assumption Network Mapping
+- **Primary Assumption Clusters**: Data strategies (Exp 1,6), Evaluation approaches (Exp 2,7), Clinical integration (Exp 3,8), Development strategies (Exp 4,9,10)
+- **Cross-Cluster Interactions**: Test whether data minimalism + architecture simplicity creates synergistic improvements
+- **Network Resilience**: Identify which assumption combinations are most robust to individual assumption failures
+
+#### Hypothesis Interaction Experiments
+- **Synergy Testing**: Combine validated assumption flips to test multiplicative vs. additive effects
+- **Constraint Validation**: Test whether certain assumption combinations create contradictory requirements
+- **System Integration**: Build unified AI systems incorporating multiple validated assumption inversions
+
+### Advanced Vectoring Protocol
+Following CS methodology for continuous risk assessment:
+
+#### Dynamic Risk Reassessment  
+- **Assumption Fragility Ranking**: Continuously update which assumptions pose highest risk to overall approach
+- **Experimental Dependency Mapping**: Identify experiments that depend on others for validity
+- **Early Warning Systems**: Automated detection of assumption failure patterns that threaten core hypotheses
+
+#### Adaptive Experimental Design
+- **Assumption Failure Response**: Automatically generate alternative hypotheses when assumptions fail
+- **Resource Reallocation**: Dynamically shift computational resources to highest-risk experiments
+- **Stopping Rule Optimization**: Implement Bayesian stopping rules that maximize learning while minimizing resource waste
+
+### Publication-Ready Results Framework
+Designed for Computer Science-inspired research evaluation standards:
+
+#### Experimental Rigor Requirements
+- **Reproducibility**: All experiments include automated reproducibility verification with containerized environments
+- **Statistical Power**: Pre-planned power analysis with automated sample size calculation for each experiment
+- **Multiple Comparison Correction**: Automated Bonferroni and FDR correction for family-wise error control
+- **Effect Size Reporting**: Standardized Cohen's d and confidence interval reporting for all comparisons
+
+#### Impact Validation Framework
+- **Field-Level Change Assessment**: Measure potential impact on broader AI drug discovery literature  
+- **Clinical Translation Metrics**: Quantify potential patient benefit from validated assumption inversions
+- **Implementation Readiness**: Assess deployment feasibility in real clinical environments
+- **Regulatory Pathway Assessment**: Evaluate regulatory science implications of validated approaches
+
+This enhanced experimental framework comprehensively tests the foundational assumptions underlying AI-driven drug repurposing for rare diseases, following rigorous Computer Science research methodology with automated execution protocols designed for AI agent implementation.
+
 
 
 
