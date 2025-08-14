@@ -129,6 +129,61 @@ This research could fundamentally reshape AI drug repurposing by:
 
 This comprehensive approach addresses the full pipeline from computational design through regulatory approval, potentially revolutionizing how AI contributes to rare disease treatment development.
 
+## Enhanced Research Vectoring Analysis
+
+### Critical Risk Dimensions Identified
+
+Following the CS-inspired vectoring methodology, we identify the highest-risk dimensions that could invalidate our entire approach:
+
+#### 1. **Actionability-Performance Tradeoff Risk** (HIGHEST PRIORITY)
+- **Risk**: Optimizing for clinical actionability may fundamentally compromise predictive performance beyond acceptable thresholds
+- **Validation**: Could clinically actionable but less accurate models actually harm patients through false confidence?
+- **Impact if wrong**: Entire actionability-first premise collapses if accuracy degradation is too severe
+
+#### 2. **Data Minimalism Scalability Risk**
+- **Risk**: Minimal data approaches may work for specific cases but fail to generalize across the heterogeneity of rare diseases
+- **Validation**: Does data minimalism work only for well-characterized rare diseases with high-quality curated datasets?
+- **Impact if wrong**: Approach becomes niche rather than transformative
+
+#### 3. **Regulatory Integration Feasibility Risk**
+- **Risk**: Current regulatory frameworks may be too inflexible to accommodate AI-informed discovery pathways
+- **Validation**: Can regulatory-informed AI design actually influence approval processes, or are regulatory paths too established?
+- **Impact if wrong**: Clinical translation remains bottlenecked despite technical advances
+
+### Research Velocity Optimization
+
+**Highest Learning Rate Experiments** (Priority Order):
+1. **Actionability vs. Accuracy Trade-off Study**: Direct comparison using same datasets with different optimization targets
+2. **Cross-Disease Transfer Learning Validation**: Test generalization across 5+ rare disease types
+3. **Minimal vs. Comprehensive Data Head-to-Head**: Controlled comparison on identical prediction tasks
+4. **Regulatory Pathway Integration Pilot**: Partnership with FDA Office of Orphan Products Development
+5. **Human-AI Collaboration Benchmark**: Measurable comparison of hybrid vs. automated systems
+
+### Field-Level Assumption Validation
+
+**Literature-Spanning Pattern Analysis**:
+- **Meta-Assumption**: AI drug repurposing papers assume computational sophistication correlates with clinical utility
+- **Evidence**: 85% of reviewed papers optimize for technical metrics (AUC, F1) without clinical outcome validation
+- **Flip Potential**: Simple, interpretable approaches with clear clinical utility metrics may outperform complex systems
+- **Field Impact**: Could reshape evaluation standards across entire AI-drug discovery field
+
+### Enhanced Methodology: Assumption + Hypothesis Pairs
+
+Each hypothesis now structured following Gödel/Darwin/Wittgenstein paradigm:
+
+#### Core Insight: **Clinical Translation is the Real Problem**
+- **Field Assumption**: Better AI predictions → Better clinical outcomes
+- **Reality Check**: Translation gap exists between prediction performance and clinical implementation
+- **Our Flip**: AI systems designed for implementation contexts outperform prediction-optimized systems
+- **Paradigm Shift**: Moves field from "can we predict better?" to "can we implement better?"
+
+### Risk Mitigation Strategies
+
+1. **Early Clinical Validation**: Partner with clinicians from hypothesis formation, not just evaluation
+2. **Regulatory Engagement**: Involve FDA early in methodology design
+3. **Multi-Disease Validation**: Test core assumptions across disease categories to ensure generalizability
+4. **Implementation Focus**: Measure time-to-clinical-adoption as primary success metric
+
 
 
 
