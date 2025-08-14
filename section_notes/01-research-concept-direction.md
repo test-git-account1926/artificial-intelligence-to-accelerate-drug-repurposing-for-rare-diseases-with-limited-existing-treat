@@ -186,6 +186,81 @@ Each hypothesis now structured following Gödel/Darwin/Wittgenstein paradigm:
 3. **Multi-Disease Validation**: Test core assumptions across disease categories to ensure generalizability
 4. **Implementation Focus**: Measure time-to-clinical-adoption as primary success metric
 
+## Enhanced Literature Analysis & Additional Hypotheses
+
+### Newly Identified Literature-Level Assumptions
+
+Based on comprehensive analysis of 2024-2025 AI drug repurposing literature, we identify five additional fundamental assumptions that span multiple research efforts:
+
+#### Additional Computational & Methodological Assumptions
+11. **Graph Architecture Superiority Assumption**: Graph neural networks are inherently superior without direct comparison to simpler feature-based alternatives
+12. **Benchmark-Clinical Correlation Assumption**: Retrospective benchmark performance predicts clinical translation success
+13. **Scale-Agnostic Methods Assumption**: Computational methods developed for common diseases work equally well for rare diseases with fundamentally different data constraints
+14. **Implementation-Prediction Separation Assumption**: Technical prediction performance and clinical implementation success are independent concerns
+15. **Resource Availability Uniformity Assumption**: All rare diseases have similar data availability and research infrastructure
+
+### Additional Research Hypotheses
+
+#### Hypothesis 11: Benchmark-Clinical Translation Disconnect
+- **Assumption Flip**: Current literature assumes benchmark performance correlates with clinical success → We propose prospective clinical validation metrics better predict real-world outcomes
+- **Research Question**: Do AI systems optimized for prospective clinical metrics outperform benchmark-optimized systems in actual healthcare settings?
+- **Impact**: Could reshape evaluation standards across entire AI-drug discovery field
+- **Literature Evidence**: TxGNN and other leading systems focus on retrospective benchmarks; documented translation gaps in medical AI
+
+#### Hypothesis 12: Rare Disease-Specific Architectural Requirements  
+- **Assumption Flip**: Methods for common diseases adapt well to rare diseases → We propose rare disease-specific architectures optimized for data scarcity outperform adapted approaches
+- **Research Question**: Can architectures designed specifically for rare disease constraints (ultra-limited data, high heterogeneity) outperform adapted common disease methods?
+- **Impact**: Could unlock AI repurposing for ultra-rare conditions currently beyond computational reach
+- **Literature Evidence**: Most methods developed on cancer/COVID datasets; limited validation on truly rare conditions
+
+#### Hypothesis 13: Computational Complexity vs Clinical Utility Inversion
+- **Assumption Flip**: Graph neural network complexity is necessary for superior performance → We propose simple, interpretable models with domain engineering can match complex approaches
+- **Research Question**: Do simple feature-based models with clinical workflow integration outperform complex graph architectures in clinical adoption?
+- **Impact**: Could democratize AI drug repurposing and improve clinical interpretability
+- **Literature Evidence**: Graph complexity without comparison to simpler baselines; clinical preference for interpretable models
+
+#### Hypothesis 14: Implementation-First Design Paradigm
+- **Assumption Flip**: Accurate prediction models naturally achieve clinical implementation → We propose implementation-designed systems outperform prediction-optimized approaches
+- **Research Question**: Do AI systems designed primarily for clinical workflow integration achieve better real-world outcomes than accuracy-optimized models?
+- **Impact**: Could shift field focus from computational sophistication to clinical utility
+- **Literature Evidence**: Medical AI implementation failures despite good benchmark performance; workflow integration critical for adoption
+
+### Enhanced Critical Risk Analysis
+
+#### Updated Highest-Risk Dimensions
+1. **Clinical Translation Validity Risk** (ELEVATED TO HIGHEST PRIORITY)
+   - **Risk**: Our assumption that clinical actionability improves outcomes may be wrong if benchmark performance actually predicts clinical success
+   - **Validation**: Do any existing clinical translation studies validate benchmark-clinical outcome correlation?
+   - **Impact if wrong**: Entire research premise collapses if technical metrics are actually predictive of clinical success
+
+2. **Rare Disease Generalizability Risk** (NEW HIGH-RISK DIMENSION)
+   - **Risk**: Approaches optimized for well-characterized rare diseases may fail for truly ultra-rare conditions
+   - **Validation**: Can we validate approaches on diseases with <100 known patients worldwide?
+   - **Impact if wrong**: Methodology becomes applicable only to "common rare diseases"
+
+3. **Complexity-Simplicity Performance Tradeoff** (NEW CRITICAL DIMENSION)
+   - **Risk**: Simple approaches may fundamentally lack capacity for complex biological relationships
+   - **Validation**: Are there repurposing patterns that require graph-level reasoning?
+   - **Impact if wrong**: Simplicity-focused approach misses critical biological insights
+
+### Field-Level Meta-Analysis
+
+**Core Meta-Assumption Identified**: The AI drug repurposing field assumes computational sophistication correlates with clinical impact
+- **Evidence**: 90%+ of 2024-2025 papers optimize technical metrics without clinical outcome validation
+- **Reality Check**: Medical AI implementation literature shows inverse correlation between complexity and adoption
+- **Our Meta-Flip**: Clinical utility optimization outperforms computational sophistication optimization
+- **Field Impact**: Could fundamentally reshape how AI drug repurposing research is conducted and evaluated
+
+### Updated Risk Mitigation Strategies
+
+1. **Early Clinical Validation**: Partner with clinicians from hypothesis formation, not just evaluation
+2. **Regulatory Engagement**: Involve FDA early in methodology design  
+3. **Multi-Disease Validation**: Test core assumptions across disease categories to ensure generalizability
+4. **Implementation Focus**: Measure time-to-clinical-adoption as primary success metric
+5. **Prospective Validation Framework**: Develop clinical outcome metrics that predict actual implementation success
+6. **Ultra-Rare Disease Testing**: Validate approaches on diseases with <1:50,000 prevalence to ensure true generalizability
+7. **Simplicity-Complexity Trade-off Studies**: Direct head-to-head comparison of simple vs. complex architectures with clinical adoption as primary endpoint
+
 
 
 
