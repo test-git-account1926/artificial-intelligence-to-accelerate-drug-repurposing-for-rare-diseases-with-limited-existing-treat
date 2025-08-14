@@ -2,6 +2,8 @@
 
 
 
+
+
 # Research Concept & Direction
 
 
@@ -126,6 +128,8 @@ This research could fundamentally reshape AI drug repurposing by:
 10. **Literature-Level Impact** - challenging fundamental assumptions that currently limit clinical translation across the entire AI drug repurposing field
 
 This comprehensive approach addresses the full pipeline from computational design through regulatory approval, potentially revolutionizing how AI contributes to rare disease treatment development.
+
+
 
 
 
