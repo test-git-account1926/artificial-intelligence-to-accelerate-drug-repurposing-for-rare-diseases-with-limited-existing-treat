@@ -1,5 +1,7 @@
 
 
+
+
 # Research Concept & Direction
 
 
@@ -70,6 +72,8 @@ This research could fundamentally reshape AI drug repurposing by:
 2. Demonstrating that data minimalism can outperform data maximalism in rare diseases
 3. Proving that human-AI collaboration exceeds fully automated approaches
 4. Accelerating rare disease treatment development through parallel validation strategies
+
+
 
 
 
