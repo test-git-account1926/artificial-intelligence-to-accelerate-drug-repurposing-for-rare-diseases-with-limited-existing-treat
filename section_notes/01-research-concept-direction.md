@@ -1,15 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
 # Research Concept & Direction
 
 
