@@ -1,5 +1,3 @@
-# Research Concept & Direction
-
 
 
 ## Overview
