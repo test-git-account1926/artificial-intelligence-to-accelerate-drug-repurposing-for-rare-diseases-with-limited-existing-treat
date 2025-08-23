@@ -1,6 +1,7 @@
 # Research Concept & Direction
 
 
+
 ## Overview
 
 This research challenges fundamental assumptions in AI-driven drug repurposing for rare diseases by proposing novel approaches that prioritize clinical actionability over predictive accuracy. While traditional drug development for rare diseases is slow and cost-prohibitive, current AI approaches make critical assumptions about data requirements, validation strategies, and the role of human expertise that may actually hinder translation to clinical practice.
