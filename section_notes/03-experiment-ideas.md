@@ -655,3 +655,229 @@ Designed for Computer Science-inspired research evaluation standards:
 
 This enhanced experimental framework comprehensively tests the foundational assumptions underlying AI-driven drug repurposing for rare diseases, following rigorous Computer Science research methodology with automated execution protocols designed for AI agent implementation.
 
+## Advanced Experimental Designs: Targeting Critical Knowledge Gaps
+
+Following the assumption + hypothesis paradigm, we identify three critical experimental dimensions that remain underexplored in our current framework. These experiments address the highest-risk assumptions that could invalidate our approach and establish novel research directions for AI-driven rare disease therapeutics.
+
+### Experiment 11: Real-World Evidence Integration vs. Controlled Trial Dependency
+
+* **Core Research Question**: Can AI systems effectively leverage real-world evidence to accelerate rare disease drug repurposing validation?
+* **Literature Assumption**: Controlled Trial Dependency Assumption - rigorous clinical validation requires large-scale randomized controlled trials for drug repurposing
+* **Assumption Flip**: Real-world evidence integration through AI can provide equivalent validation signals with faster timeline and broader patient inclusion
+* **Hypothesis Claim Type**: X ≥ Y (RWE-based validation maintains scientific rigor) + ∃ X (novel RWE metrics exist that predict clinical success)
+
+**Vectoring Analysis**:
+
+* **Highest Risk**: If RWE contains too much noise and confounding variables, clinical validation quality could be compromised
+* **Invalidation Test**: Compare RWE-based predictions with actual trial outcomes - if correlation <0.70, assumption holds
+* **Impact Validation**: Success enables validation for ultra-rare diseases where RCTs are impossible due to patient scarcity
+
+**AI Agent Execution Protocol**:
+
+1. **RWE Data Pipeline Automation**:
+   * Automatically extract and harmonize electronic health records, claims data, and patient registries
+   * Implement natural language processing for clinical notes and adverse event reports
+   * Build automated data quality assessment and bias detection algorithms
+   * Create longitudinal patient outcome tracking with automated endpoint extraction
+
+2. **Confounding Control Framework**:
+   * Implement automated propensity score matching and causal inference methods
+   * Build patient cohort stratification algorithms accounting for disease severity and comorbidities
+   * Create synthetic control generation using historical data and disease progression modeling
+   * Deploy automated sensitivity analysis to test robustness of findings
+
+3. **Validation Signal Detection**:
+   * Develop AI-driven biomarker discovery from RWE data streams
+   * Implement automated safety signal detection using distributed data networks
+   * Create efficacy endpoint prediction using patient-reported outcomes and clinical assessments
+   * Build comparative effectiveness analysis automation comparing RWE vs. trial-based conclusions
+
+**Concrete Implementation Steps**:
+
+* **Week 1-6**: Build RWE data harmonization pipeline with automated quality control
+* **Week 7-12**: Implement confounding control and causal inference frameworks
+* **Week 13-18**: Develop validation signal detection algorithms with safety monitoring
+* **Week 19-22**: Execute comparative validation on 25 rare disease drug repurposing cases
+* **Week 23-24**: Statistical validation and RWE integration optimization
+
+**Success/Failure Criteria**:
+
+* **Strong Success**: RWE-based validation achieves >85% correlation with trial outcomes while reducing validation time by >70%
+* **Moderate Success**: RWE validation achieves >75% correlation with >50% time reduction and broader patient inclusion
+* **Failure**: RWE correlation <70% or no significant efficiency advantages over traditional trials
+* **Assumption Invalidated**: If failure, investigate whether disease-specific RWE approaches optimize performance
+
+**Automated Vectoring Checks**:
+
+* Monitor confounding variable impact - if bias corrections reduce correlation below 65%, halt and investigate alternative RWE strategies
+* Track patient inclusion diversity - if RWE doesn't increase representation of underserved populations, reconsider approach value
+* Evaluate regulatory acceptance - if RWE methods don't align with emerging FDA guidance, adapt methodology
+
+### Experiment 12: Federated Learning vs. Centralized Data for Rare Disease AI
+
+* **Core Research Question**: Can federated learning approaches overcome data silos and privacy constraints that limit rare disease AI development?
+* **Literature Assumption**: Centralized Data Necessity Assumption - effective AI for rare diseases requires centralized, comprehensive datasets
+* **Assumption Flip**: Federated learning across distributed rare disease datasets can achieve superior model performance while preserving patient privacy
+* **Hypothesis Claim Type**: X > Y (federated learning outperforms centralized approaches) + Bounding X (federated learning particularly effective when data sharing barriers exist)
+
+**Vectoring Analysis**:
+
+* **Highest Risk**: If communication overhead and data heterogeneity in federated learning degrade performance below centralized approaches
+* **Invalidation Test**: Compare federated vs. centralized performance on identical data distributed across sites - if federated underperforms significantly, assumption holds
+* **Impact Validation**: Success enables global rare disease data collaboration while maintaining privacy, potentially unlocking datasets currently inaccessible
+
+**AI Agent Execution Protocol**:
+
+1. **Federated Infrastructure Automation**:
+   * Implement automated federated learning frameworks (FedAvg, FedProx, FedNova) with privacy preservation
+   * Build differential privacy integration with automated privacy budget management
+   * Create automated client participation optimization and communication efficiency protocols
+   * Deploy automated model aggregation with Byzantine fault tolerance for malicious client detection
+
+2. **Data Heterogeneity Management**:
+   * Implement automated domain adaptation for cross-institution data differences
+   * Build personalized federated learning algorithms for patient-level heterogeneity
+   * Create automated batch normalization and feature scaling across distributed sites
+   * Deploy automated detection and mitigation of catastrophic forgetting
+
+3. **Privacy-Utility Trade-off Optimization**:
+   * Develop automated privacy-preserving synthetic data generation for validation
+   * Implement homomorphic encryption for secure multi-party computation where needed
+   * Build automated utility measurement that accounts for privacy constraints
+   * Create adaptive privacy budgeting based on model performance requirements
+
+**Concrete Implementation Steps**:
+
+* **Week 1-4**: Implement federated learning infrastructure with multiple privacy preservation techniques
+* **Week 5-8**: Build data heterogeneity management and automated domain adaptation
+* **Week 9-12**: Deploy privacy-utility optimization algorithms with performance monitoring
+* **Week 13-16**: Execute comparative evaluation on simulated multi-site rare disease datasets
+* **Week 17-18**: Privacy preservation validation and regulatory compliance assessment
+* **Week 19-20**: Global collaboration feasibility analysis and deployment readiness evaluation
+
+**Success/Failure Criteria**:
+
+* **Strong Success**: Federated learning achieves >95% of centralized performance while enabling 3x more data participation
+* **Moderate Success**: Federated learning achieves >85% of centralized performance with meaningful privacy preservation
+* **Failure**: Federated performance <80% of centralized or privacy overhead eliminates practical advantages
+* **Assumption Invalidated**: If failure, investigate whether specific federation architectures optimize rare disease applications
+
+**Automated Vectoring Checks**:
+
+* Monitor communication overhead - if >50% of computation time spent on communication, investigate compression strategies
+* Track privacy budget utilization - if differential privacy degrades utility below acceptable thresholds, adjust epsilon parameters
+* Evaluate client participation rates - if <70% of sites can participate effectively, investigate federated system accessibility
+
+### Experiment 13: Causal Discovery vs. Correlational Analysis for Therapeutic Target Identification
+
+* **Core Research Question**: Is discovering causal relationships necessary for successful therapeutic target identification in rare diseases?
+* **Literature Assumption**: Correlation Sufficiency Assumption - statistical correlations between molecular features and disease phenotypes are sufficient for therapeutic target discovery
+* **Assumption Flip**: Causal discovery methods that distinguish correlation from causation lead to more successful therapeutic targets
+* **Hypothesis Claim Type**: X > Y (causal methods outperform correlation-based methods) + Bounding X (causal discovery particularly valuable for complex genetic diseases)
+
+**Vectoring Analysis**:
+
+* **Highest Risk**: If correlation-based methods capture all actionable therapeutic relationships, causal methods may add complexity without benefit
+* **Invalidation Test**: Compare therapeutic target success rates from correlation vs. causal approaches on historical data - if success rates equivalent, assumption holds
+* **Impact Validation**: Success ensures therapeutic targets have mechanistic foundation, improving success rates and reducing development failures
+
+**AI Agent Execution Protocol**:
+
+1. **Causal Discovery Automation**:
+   * Implement automated causal discovery algorithms (PC, FCI, GES) adapted for biological networks
+   * Build interventional data integration using genetic variants as natural experiments
+   * Create automated instrumental variable identification for drug-target causal inference
+   * Deploy automated confounding variable detection and adjustment in observational data
+
+2. **Correlation Baseline Development**:
+   * Build correlation-based target identification using traditional statistical association methods
+   * Implement machine learning correlation discovery with automated feature selection
+   * Create correlation network analysis with automated pathway enrichment
+   * Deploy automated statistical significance testing with multiple comparison correction
+
+3. **Therapeutic Target Validation**:
+   * Develop automated literature mining for target validation evidence
+   * Implement druggability prediction algorithms for identified targets
+   * Build automated pathway analysis linking targets to disease mechanisms
+   * Create target-drug matching optimization using automated molecular docking and interaction prediction
+
+**Concrete Implementation Steps**:
+
+* **Week 1-4**: Implement causal discovery algorithms with automated biological network adaptation
+* **Week 5-8**: Build correlation-based baseline methods with statistical validation
+* **Week 9-12**: Execute comparative target identification on 40 rare diseases with known therapeutic targets
+* **Week 13-16**: Validate identified targets using automated literature mining and druggability assessment
+* **Week 17-18**: Historical success rate analysis comparing causal vs. correlational target identification
+* **Week 19-20**: Statistical validation and causal method optimization framework
+
+**Success/Failure Criteria**:
+
+* **Strong Success**: Causal methods achieve >40% better therapeutic target success rates with superior mechanistic foundation
+* **Moderate Success**: Causal methods achieve >25% better success rates with significantly improved target quality
+* **Failure**: Correlation methods equal or exceed causal methods for target identification success
+* **Assumption Invalidated**: If failure, investigate whether hybrid correlation-causation approaches optimize target discovery
+
+**Automated Vectoring Checks**:
+
+* Monitor causal discovery stability - if causal networks change dramatically with small data perturbations, investigate robustness methods
+* Track computational complexity - if causal methods require >5x computational resources without proportional benefit, optimize algorithms
+* Evaluate biological plausibility - if causal targets lack mechanistic support, investigate causal discovery algorithm assumptions
+
+## Experimental Execution Priority Framework
+
+Based on Computer Science vectoring methodology, we establish execution priority that maximizes learning per unit time and identifies highest-risk assumptions first:
+
+### Tier 1: Foundation-Critical Experiments (Execute First)
+
+1. **Experiment 1**: Data Minimalism vs. Maximalism - **Highest vectoring risk**, foundation for all subsequent work
+2. **Experiment 6**: Architecture Simplicity vs. Graph Complexity - Tests computational foundation assumptions
+3. **Experiment 7**: Benchmark vs. Clinical Evaluation Metrics - Critical for evaluation framework validity
+
+**Rationale**: These experiments test the most fundamental assumptions about data, computation, and evaluation that underlie our entire approach. Failure in any of these invalidates multiple subsequent experiments.
+
+### Tier 2: Translation-Critical Experiments (Execute Second)
+
+1. **Experiment 2**: Actionability-First vs. Accuracy-First AI Design - Critical for clinical adoption
+2. **Experiment 8**: Regulatory-Informed vs. Regulatory-Agnostic Design - Essential for clinical translation
+3. **Experiment 11**: Real-World Evidence Integration - Key for validation in rare disease context
+
+**Rationale**: These experiments directly test assumptions about clinical translation and implementation, which are necessary for real-world impact.
+
+### Tier 3: Optimization Experiments (Execute Third)
+
+1. **Experiment 3**: Cross-Disease Transfer Learning - Optimizes data efficiency across diseases
+2. **Experiment 9**: Mechanistic vs. Pattern-Matching - Ensures scientific rigor
+3. **Experiment 12**: Federated Learning - Optimizes data collaboration possibilities
+
+### Tier 4: Advanced Integration Experiments (Execute Last)
+
+1. **Experiment 4**: Parallel vs. Sequential Validation - Complex regulatory science requiring foundation results
+2. **Experiment 5**: Human-AI Collaboration - Depends on validated AI capabilities from earlier experiments
+3. **Experiment 10**: Urgency-Stratified Development - Resource allocation optimization requiring other validated approaches
+4. **Experiment 13**: Causal Discovery - Advanced methodology building on validated correlation approaches
+
+**Automated Execution Strategy**: AI agents should execute Tier 1 experiments in parallel, then use Bayesian evidence accumulation to update experimental priorities based on results. Failed assumptions trigger immediate pivot to alternative hypotheses within the same tier before proceeding to subsequent tiers.
+
+## AI Agent Autonomy and Adaptive Experimentation
+
+### Autonomous Decision-Making Framework
+
+**Stopping Rules**: AI agents automatically halt experiments when:
+* Statistical significance achieved (p<0.05) with sufficient effect size (Cohen's d>0.5)
+* Assumption clearly invalidated (p<0.01 against hypothesis)
+* Safety thresholds exceeded (for clinical validation experiments)
+* Resource limits approached without convergence
+
+**Adaptive Hypothesis Generation**: When assumptions fail, AI agents automatically:
+* Generate 3 alternative hypotheses based on observed failure patterns
+* Prioritize alternative hypotheses by potential impact and experimental feasibility
+* Execute micro-experiments to quickly test alternative assumptions
+* Update experimental priority based on new evidence
+
+**Cross-Experiment Learning**: AI agents continuously:
+* Update assumption confidence across all experiments as new evidence emerges
+* Identify experiment synergies and optimize execution order
+* Detect contradictory results requiring methodological investigation
+* Generate meta-hypotheses about assumption interaction effects
+
+This framework enables AI agents to conduct autonomous scientific discovery that challenges fundamental assumptions in AI-driven drug repurposing while maintaining rigorous experimental standards and adaptive learning capabilities.
