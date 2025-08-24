@@ -653,5 +653,123 @@ Designed for Computer Science-inspired research evaluation standards:
 * **Implementation Readiness**: Assess deployment feasibility in real clinical environments
 * **Regulatory Pathway Assessment**: Evaluate regulatory science implications of validated approaches
 
+## Rigorous Experimental Design: CS Methodology Implementation
+
+### Enhanced Assumption + Hypothesis Framework
+
+Following Stanford CS research methodology, our experiments are structured to test literature-level assumptions through systematic assumption inversion. Each experiment follows the rigorous framework:
+
+1. **Assumption Identification**: Clear articulation of implicit literature assumptions
+2. **Hypothesis Formulation**: Specific claim types (X > Y, ∃ X, Bounding X)
+3. **Vectoring Analysis**: Continuous risk assessment and early failure detection
+4. **Automated Execution**: AI agent protocols with statistical rigor
+5. **Evidence Standards**: Field-appropriate validation matching CS research standards
+
+### New Rigorous Experimental Designs
+
+#### Experiment 11: Multi-Modal Integration vs. Targeted Feature Selection
+
+* **Core Research Question**: Do multi-modal approaches in biomedical AI actually provide superior information or create noise that degrades performance?
+* **Literature Assumption**: Multi-Modal Superiority Assumption - integrating multiple data types (genomic, proteomic, clinical, imaging) always improves AI model performance
+* **Assumption Flip**: Targeted feature selection within single modalities can outperform multi-modal integration through reduced noise and increased signal clarity
+* **Hypothesis Claim Type**: X > Y (targeted single-modal approaches outperform multi-modal integration) + Bounding X (single-modal superiority depends on feature quality and task alignment)
+
+**Rigorous Experimental Design**:
+
+* **Independent Variables**: Data modality strategy (single genomic, single clinical, multi-modal integrated)
+* **Dependent Variables**: Prediction accuracy, interpretability scores, computational efficiency, clinical actionability
+* **Controls**: Identical model architectures, hyperparameter optimization, cross-validation procedures
+* **Sample Size**: Power analysis for n=100 rare diseases per condition (80% power, α=0.05)
+* **Validity Threats**: Modality quality differences (controlled via quality-matched datasets), task-modality alignment bias (controlled via task randomization)
+
+**AI Agent Automation Protocol**:
+
+1. **Automated Power Analysis and Sample Size Calculation**
+2. **Quality-Matched Dataset Generation** with automated feature extraction
+3. **Parallel Model Training** with identical architectures across conditions
+4. **Statistical Analysis Pipeline** with automated multiple comparison correction
+5. **Interpretability Quantification** using standardized explainability metrics
+
+**Timeline**: 8 weeks (Week 1-2: Data preparation, Week 3-5: Model training, Week 6-7: Evaluation, Week 8: Analysis)
+
+**Success Criteria**: Single-modal approaches achieve ≥95% of multi-modal accuracy with >50% better interpretability (p<0.01)
+
+#### Experiment 12: Real-Time Adaptive Learning vs. Static Model Deployment
+
+* **Core Research Question**: Should AI drug repurposing systems continuously adapt to new evidence or maintain static predictions for consistency?
+* **Literature Assumption**: Static Model Reliability Assumption - deployed AI models should remain constant to ensure reproducible predictions and regulatory compliance
+* **Assumption Flip**: Real-time adaptive learning systems that incorporate emerging evidence achieve superior long-term performance and clinical relevance
+* **Hypothesis Claim Type**: X > Y (adaptive systems outperform static systems over time) + Bounding X (adaptation particularly valuable for rapidly evolving rare disease understanding)
+
+**Rigorous Experimental Design**:
+
+* **Independent Variables**: Learning strategy (static deployment, periodic retraining, real-time adaptation)
+* **Dependent Variables**: Long-term prediction accuracy, clinical decision support quality, safety signal detection
+* **Controls**: Identical base architectures, equivalent computational resources, standardized evaluation protocols
+* **Temporal Design**: 12-month simulation using historical data streams to test adaptation over time
+* **Validity Threats**: Dataset drift vs. model improvement (controlled via held-out temporal validation), overfitting to recent data (controlled via regularization)
+
+**AI Agent Automation Protocol**:
+
+1. **Temporal Data Stream Simulation** with controlled information release
+2. **Automated Model Retraining Pipelines** with drift detection algorithms
+3. **Safety Monitoring Systems** with automated anomaly detection
+4. **Performance Tracking** with statistical change point detection
+5. **Clinical Decision Simulation** using expert decision pattern models
+
+**Timeline**: 12 weeks (Week 1-4: System development, Week 5-8: Temporal simulation, Week 9-12: Analysis)
+
+**Success Criteria**: Adaptive systems maintain >95% of peak performance for >6 months vs. static model degradation >20% (p<0.01)
+
+#### Experiment 13: Confidence-Calibrated vs. Point-Estimate Predictions
+
+* **Core Research Question**: Are confidence intervals and uncertainty quantification essential for clinical AI deployment?
+* **Literature Assumption**: Point Prediction Sufficiency Assumption - accurate point predictions are sufficient for clinical decision-making
+* **Assumption Flip**: Well-calibrated confidence intervals and uncertainty quantification are essential for safe and effective clinical AI deployment
+* **Hypothesis Claim Type**: X > Y (confidence-calibrated systems achieve better clinical outcomes) + ∃ X (it's possible to construct reliable uncertainty estimates for biomedical predictions)
+
+**Rigorous Experimental Design**:
+
+* **Independent Variables**: Prediction format (point estimates, confidence intervals, full uncertainty distributions)
+* **Dependent Variables**: Clinical decision quality, error detection rates, physician trust and adoption
+* **Controls**: Identical underlying prediction models, equivalent information content, standardized clinical scenarios
+* **Experimental Tasks**: Simulated clinical decision-making with known ground truth outcomes
+* **Validity Threats**: Calibration quality differences (controlled via post-hoc calibration), information content bias (controlled via matched information experiments)
+
+**AI Agent Automation Protocol**:
+
+1. **Calibrated Uncertainty Estimation** using ensemble methods and calibration algorithms
+2. **Clinical Decision Simulation** with automated physician agent models
+3. **Trust and Adoption Modeling** based on behavioral psychology principles
+4. **Safety Event Detection** with automated monitoring of prediction-outcome mismatches
+5. **Statistical Calibration Assessment** using reliability diagrams and calibration metrics
+
+**Timeline**: 6 weeks (Week 1-2: Uncertainty estimation development, Week 3-4: Decision simulation, Week 5-6: Analysis)
+
+**Success Criteria**: Confidence-calibrated systems achieve >30% better error detection with >25% higher physician trust scores (p<0.01)
+
+### Advanced Statistical Framework
+
+#### Bayesian Evidence Accumulation Protocol
+
+* **Prior Specification**: Use literature-informed priors for assumption strength
+* **Evidence Integration**: Continuously update posterior beliefs as experiments complete
+* **Decision Thresholds**: Pre-specified Bayes factors for assumption rejection/acceptance
+* **Multi-Experiment Integration**: Hierarchical Bayesian models combining evidence across experiments
+
+#### Sequential Experimental Design
+
+* **Adaptive Sample Sizes**: Automated power calculations with sequential testing
+* **Early Stopping Rules**: Bayesian stopping criteria to minimize resource waste
+* **Group Sequential Methods**: Interim analyses with alpha spending functions
+* **Information-Theoretic Optimization**: Maximize information gain per experimental resource unit
+
+#### Cross-Validation Robustness
+
+* **Nested Cross-Validation**: Prevent hyperparameter overfitting across all experiments
+* **Temporal Validation**: Time-series splits for experiments using longitudinal data
+* **Cross-Dataset Validation**: Test generalization across different rare disease databases
+* **Adversarial Validation**: Detect dataset shift and distribution mismatches
+
 This enhanced experimental framework comprehensively tests the foundational assumptions underlying AI-driven drug repurposing for rare diseases, following rigorous Computer Science research methodology with automated execution protocols designed for AI agent implementation.
 
