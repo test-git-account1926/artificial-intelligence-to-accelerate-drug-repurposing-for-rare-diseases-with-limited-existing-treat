@@ -655,3 +655,134 @@ Designed for Computer Science-inspired research evaluation standards:
 
 This enhanced experimental framework comprehensively tests the foundational assumptions underlying AI-driven drug repurposing for rare diseases, following rigorous Computer Science research methodology with automated execution protocols designed for AI agent implementation.
 
+## Additional High-Impact Experiments
+
+Based on our comprehensive literature analysis and vectoring methodology, we identify three additional critical experimental dimensions that address emerging assumptions in AI drug repurposing. These experiments follow the assumption + hypothesis paradigm and are designed for autonomous AI agent execution.
+
+### Experiment 11: Multi-Modal Integration vs. Feature Fusion
+
+* **Core Research Question**: Is sophisticated multi-modal integration superior to simple feature fusion for drug repurposing?
+* **Literature Assumption**: Integration Complexity Assumption - sophisticated multi-modal integration methods (attention mechanisms, late fusion) are superior to simple feature concatenation
+* **Assumption Flip**: Simple feature fusion with proper normalization and selection achieves comparable performance to complex integration methods while maintaining interpretability
+* **Hypothesis Claim Type**: X ≥ Y (simple fusion matches complex integration) + Bounding X (simple fusion particularly effective with proper preprocessing)
+
+**Vectoring Analysis**:
+
+* **Highest Risk**: If complex integration captures critical cross-modal interactions that simple fusion misses, performance could degrade significantly
+* **Invalidation Test**: Progressive integration complexity comparison - if complex methods consistently outperform by >20%, assumption holds
+* **Impact Validation**: Success would simplify multi-modal AI development and improve clinical interpretability across biomedical applications
+
+**AI Agent Execution Protocol**:
+
+1. **Multi-Modal Data Preparation**:
+   * Automatically collect and preprocess genomic, proteomic, clinical, and chemical data for rare diseases
+   * Implement normalization strategies for different data modalities with automated quality assessment
+   * Generate stratified datasets ensuring balanced representation across modalities
+2. **Integration Method Comparison**:
+   * Implement complex integration: attention-based fusion, graph-based integration, late fusion with learned weights
+   * Implement simple fusion: feature concatenation, weighted averaging, early fusion with standardization
+   * Build hybrid approaches combining simple and complex elements
+3. **Performance-Interpretability Assessment**:
+   * Measure predictive accuracy, training efficiency, and inference speed across integration methods
+   * Quantify interpretability using feature importance, cross-modal contribution analysis, and clinical reasoning clarity
+   * Assess robustness to missing modalities and data quality variations
+
+**Success/Failure Criteria**:
+* **Strong Success**: Simple fusion achieves ≥95% of complex integration performance with >2x interpretability improvement
+* **Moderate Success**: Simple fusion achieves ≥90% performance with significant efficiency and interpretability gains
+* **Failure**: Complex integration consistently outperforms simple fusion by >20% across rare disease tasks
+
+### Experiment 12: Temporal Validation vs. Cross-Sectional
+
+* **Core Research Question**: Do temporal validation strategies better predict future drug repurposing success than cross-sectional approaches?
+* **Literature Assumption**: Static Validation Assumption - cross-sectional validation using randomly split historical data adequately predicts future model performance
+* **Assumption Flip**: Temporal validation using chronologically ordered data better predicts real-world deployment success and accounts for evolving medical knowledge
+* **Hypothesis Claim Type**: X > Y (temporal validation outperforms cross-sectional) + ∃ X (it's possible to construct temporal validation that captures knowledge evolution)
+
+**Vectoring Analysis**:
+
+* **Highest Risk**: If medical knowledge evolution doesn't significantly impact model performance, temporal validation may be unnecessary complexity
+* **Invalidation Test**: Compare validation approaches on datasets with known temporal shifts - if cross-sectional validation performs equally well, assumption holds
+* **Impact Validation**: Success would establish new standards for medical AI validation that account for knowledge evolution
+
+**AI Agent Execution Protocol**:
+
+1. **Temporal Dataset Construction**:
+   * Build chronologically ordered drug repurposing dataset spanning 20+ years with precise dating
+   * Implement automated extraction of medical knowledge evolution markers (new disease understanding, updated guidelines)
+   * Create temporal splits that simulate realistic deployment scenarios
+2. **Validation Strategy Comparison**:
+   * Execute traditional cross-sectional validation with random train/test splits
+   * Implement temporal validation with chronologically ordered training and testing
+   * Build adaptive models that account for knowledge evolution over time
+3. **Knowledge Evolution Impact Assessment**:
+   * Measure prediction accuracy degradation over time for different validation approaches
+   * Quantify impact of medical knowledge updates on model performance
+   * Assess model calibration and uncertainty quantification under temporal shifts
+
+**Success/Failure Criteria**:
+* **Strong Success**: Temporal validation shows >30% better prediction of future performance with improved calibration
+* **Moderate Success**: Temporal validation shows >20% better future prediction with measurable knowledge evolution benefits
+* **Failure**: Cross-sectional validation equals or exceeds temporal validation for predicting future performance
+
+### Experiment 13: Ensemble Complexity vs. Single Model Efficiency
+
+* **Core Research Question**: Do complex ensemble methods justify their computational overhead for clinical drug repurposing applications?
+* **Literature Assumption**: Ensemble Superiority Assumption - complex ensemble methods (stacking, boosting, deep ensembles) are necessary to achieve optimal performance in medical AI
+* **Assumption Flip**: Well-tuned single models with proper regularization and uncertainty quantification can achieve comparable performance to complex ensembles while maintaining clinical deployability
+* **Hypothesis Claim Type**: X ≥ Y (single models match ensemble performance) + Bounding X (single models particularly effective with proper uncertainty quantification)
+
+**Vectoring Analysis**:
+
+* **Highest Risk**: If ensemble diversity captures critical prediction patterns that single models miss, clinical deployment may sacrifice too much accuracy
+* **Invalidation Test**: Direct performance comparison with deployment constraints - if ensembles consistently outperform by >15% under clinical conditions, assumption holds
+* **Impact Validation**: Success would enable practical clinical deployment of AI systems with faster inference and simpler maintenance
+
+**AI Agent Execution Protocol**:
+
+1. **Model Architecture Development**:
+   * Implement complex ensembles: gradient boosting, stacking, Bayesian model averaging, deep ensembles
+   * Build optimized single models: well-regularized neural networks, calibrated predictions, Monte Carlo dropout
+   * Create hybrid approaches combining limited ensemble diversity with single model efficiency
+2. **Clinical Deployment Simulation**:
+   * Simulate clinical environment constraints: inference time limits, memory requirements, maintenance complexity
+   * Implement automated model updating and retraining protocols for different architectures
+   * Assess reliability and failure modes under clinical deployment conditions
+3. **Performance-Efficiency Trade-off Analysis**:
+   * Measure accuracy, calibration, inference speed, and memory requirements across model types
+   * Quantify deployment complexity and maintenance requirements
+   * Assess cost-effectiveness using clinical value-based metrics
+
+**Success/Failure Criteria**:
+* **Strong Success**: Single models achieve ≥95% of ensemble performance with >5x faster inference and simpler deployment
+* **Moderate Success**: Single models achieve ≥90% performance with significant deployment and maintenance advantages
+* **Failure**: Ensembles consistently outperform single models by >15% under clinical deployment constraints
+
+## Enhanced AI Agent Execution Timeline
+
+**Phase 1 (Weeks 1-4): Enhanced Foundation**
+* Deploy all 13 major experiments with automated infrastructure
+* Execute 3 additional micro-experiments for rapid assumption validation
+* Implement advanced vectoring with cross-experiment dependency analysis
+* Set up real-time meta-analysis framework for continuous assumption updating
+
+**Phase 2 (Weeks 5-18): Comprehensive Assumption Testing**
+* Execute experiments 1-10 in parallel with automated monitoring
+* Deploy experiments 11-13 with focus on clinical deployment constraints
+* Implement Bayesian evidence accumulation across all experimental results
+* Generate automated cross-experiment interaction analysis
+
+**Phase 3 (Weeks 19-34): Integration and Validation**
+* Build unified system incorporating all validated assumption flips
+* Execute comprehensive meta-analysis across 13+ experiments
+* Implement automated publication-ready statistical analysis
+* Deploy system validation on prospective rare disease cases
+
+**Automated Milestone Monitoring**:
+* Week 6: First 3 micro-experiments complete with assumption rankings
+* Week 12: 50% of major assumptions tested with statistical significance
+* Week 24: Integrated system demonstrates superior performance on validation set
+* Week 34: Publication-ready results with comprehensive evidence base
+
+This comprehensive experimental framework now tests 13 major assumptions with rigorous Computer Science methodology, providing the foundation for transformative advances in AI-driven drug repurposing for rare diseases.
+
